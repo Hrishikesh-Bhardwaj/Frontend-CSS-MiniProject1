@@ -99,10 +99,6 @@ nav h4 {
 #bottom {
   height: 50%;
   width: 100%;
-  /* background-color: red; */
-  /* background-image: url(https://media.istockphoto.com/id/1064924442/photo/young-confident-brunette-woman-in-white-elegant-shirt-smiling-portrait-against-white.jpg?s=1024x1024&w=is&k=20&c=oIzYtObbbYJLRhxvtmWd2YAdXl3BtPMN3-gHDUv33Ww=); */
-  /* background-image: url(https://media.istockphoto.com/id/1081381238/photo/african-american-man-pointing-aside-at-copy-space.jpg?s=1024x1024&w=is&k=20&c=WaGoEnTTTKUBUEtgmOl9e9OkMFNHJuX53vAXQwLwjjI=); */
-  /* background-image: url(https://media.istockphoto.com/id/615093794/photo/glamorous-young-woman-in-black-leather-jacket-on-white-background.jpg?s=1024x1024&w=is&k=20&c=otwACiwOuIb59UjzMpL9Cz9ZIi9yCBQMn43xmvx012E=); */
   background-image: url(https://images.unsplash.com/photo-1589156191108-c762ff4b96ab?q=80&w=1372&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
   background-size: cover;
   background-position: 0 50%;
