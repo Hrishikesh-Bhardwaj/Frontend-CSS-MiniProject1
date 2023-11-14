@@ -1,0 +1,109 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+#main {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+}
+#nav {
+  display: flex;
+  width: 100%;
+  height: 100px;
+
+  align-items: center;
+  justify-content: flex-end;
+  gap: 30px;
+  padding: 0px 30px;
+}
+nav h4 {
+  font-size: 20px;
+  font-weight: 600;
+}
+#nav i {
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 50%;
+  font-weight: 500;
+}
+
+#center {
+  /* height: 40%; */
+  width: 100%;
+  /* background-color: red; */
+  padding: 40px 80px;
+}
+#center h1 {
+  font-size: 80px;
+  font-weight: 500;
+  line-height: 90px;
+}
+#center-in {
+  display: flex;
+  justify-content: space-between;
+  height: 200px;
+  /* background-color: red; */
+  width: 100%;
+  margin-top: 50px;
+}
+#center-in p {
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 32px;
+}
+#right {
+  width: 20%;
+}
+.elem {
+  /* background-color: yellow; */
+  /* margin: 5px; */
+  padding: 20px 0;
+  border-top: 2px solid #000000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.elem i {
+  font-size: 25px;
+  font-weight: 500;
+  opacity: 0;
+}
+
+.elem a {
+  color: #000000;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 20px;
+}
+.elem:hover i {
+  opacity: 1;
+}
+.elem:hover a {
+  text-decoration: underline;
+}
+
+.elem:hover {
+  background-color: rgb(230, 227, 227);
+}
+
+#bottom {
+  height: 50%;
+  width: 100%;
+  /* background-color: red; */
+  /* background-image: url(https://media.istockphoto.com/id/1064924442/photo/young-confident-brunette-woman-in-white-elegant-shirt-smiling-portrait-against-white.jpg?s=1024x1024&w=is&k=20&c=oIzYtObbbYJLRhxvtmWd2YAdXl3BtPMN3-gHDUv33Ww=); */
+  /* background-image: url(https://media.istockphoto.com/id/1081381238/photo/african-american-man-pointing-aside-at-copy-space.jpg?s=1024x1024&w=is&k=20&c=WaGoEnTTTKUBUEtgmOl9e9OkMFNHJuX53vAXQwLwjjI=); */
+  /* background-image: url(https://media.istockphoto.com/id/615093794/photo/glamorous-young-woman-in-black-leather-jacket-on-white-background.jpg?s=1024x1024&w=is&k=20&c=otwACiwOuIb59UjzMpL9Cz9ZIi9yCBQMn43xmvx012E=); */
+  background-image: url(https://images.unsplash.com/photo-1589156191108-c762ff4b96ab?q=80&w=1372&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-size: cover;
+  background-position: 0 50%;
+}
